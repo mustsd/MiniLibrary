@@ -32,21 +32,18 @@ class Program
 
         m1.PrintBorrowed();
 
-        // Lend books to Bob
-
+        // return a book
         Console.WriteLine($"\nTake back '{b1.Title}' from {m1.Name}: {lib.TakeBack(b1.Title, m1)}");
 
         Console.WriteLine($"Alice returns '{b1.Title}'");
 
         m1.PrintBorrowed();
 
+        // Lend a book to Bob
         Console.WriteLine($"\nLend '{b5.Title}' to {m2.Name}: {lib.Lend(b5.Title, m2)}");
 
         lib.PrintInventory();
 
         m2.PrintBorrowed();
-
-
-
     }
 }
