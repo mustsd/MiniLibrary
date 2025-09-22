@@ -1,0 +1,34 @@
+Library Inventory:
+ - 1984 by George Orwell | Available: True
+ - To Kill a Mockingbird by Harper Lee | Available: True
+ - The Great Gatsby by F. Scott Fitzgerald | Available: True
+ - The Catcher in the Rye by J.D. Salinger | Available: True
+ - Moby Dick by Herman Melville | Available: True
+Lend '1984' to Alice: True
+Lend 'To Kill a Mockingbird' to Alice: True
+Lend 'The Great Gatsby' to Alice: True
+Lend 'The Catcher in the Rye' to Alice: False
+
+Alice has 3 books:
+- 1984 by George Orwell
+- To Kill a Mockingbird by Harper Lee
+- The Great Gatsby by F. Scott Fitzgerald
+
+Take back '1984' from Alice: True
+Alice returns '1984'
+
+Alice has 2 books:
+- To Kill a Mockingbird by Harper Lee
+- The Great Gatsby by F. Scott Fitzgerald
+
+Lend 'Moby Dick' to Bob: True
+
+Library Inventory:
+ - 1984 by George Orwell | Available: True
+ - To Kill a Mockingbird by Harper Lee | Available: False
+ - The Great Gatsby by F. Scott Fitzgerald | Available: False
+ - The Catcher in the Rye by J.D. Salinger | Available: True
+ - Moby Dick by Herman Melville | Available: False
+
+Bob has 1 books:
+- Moby Dick by Herman Melville
